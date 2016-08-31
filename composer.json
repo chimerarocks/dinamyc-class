@@ -1,0 +1,20 @@
+{
+    "name": "chimerarocks/dinamyc-class",
+    "description": "A PHP dynamic class creator for every class",
+    "authors": [
+        {
+            "name": "chimerarocks",
+            "email": "joaopedrodslv@gmail.com"
+        }
+    ],
+    "autoload": {
+		"psr-4": {
+			"ChimeraRocks\\DinamycClass\\": "src/ChimeraRocks/DinamycClass",
+			"Test\\": "tests/Test"
+		}
+	},
+    "require-dev": {
+        "phpunit/phpunit": "^5.5",
+        "mockery/mockery": "^0.9.5"
+    }
+}
